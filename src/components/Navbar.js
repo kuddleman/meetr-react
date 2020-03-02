@@ -8,7 +8,7 @@ class Navbar extends React.Component {
   render() {
 
     const navStyle = {
-      color: 'red'
+      color: 'white'
     }
     return (
       <nav>
