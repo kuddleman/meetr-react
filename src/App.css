@@ -22,8 +22,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: #0abab5;
-  color: white
+  background: #3cb4c9;
+  color: white;
+  margin-bottom: 6em;
+
 }
 
 .nav-links {
@@ -36,7 +38,14 @@ nav {
   
 }
 
-
+.login-div {
+  border: 2px solid #B2B2B2;
+ 
+  width: 30%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
 
 
 
