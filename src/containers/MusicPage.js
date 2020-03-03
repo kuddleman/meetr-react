@@ -1,3 +1,7 @@
+
+
+
+
 import React from 'react';
 // import CssBaseline from '@material-ui/core/CssBaseline';
 // import Typography from '@material-ui/core/Typography';
@@ -7,10 +11,17 @@ import ScoreComments from '../components/ScoreComments'
 // import { makeStyles } from '@material-ui/core/styles';
 import MusicScore from './MusicScore'
 
+
 class MusicPage extends React.Component {
 
-  render() {
+  
+render() {
+   
+
+  
     return (
+  
+
       <div className="music-score-container">
         <div className="comments-container">
           <ScoreComments />
@@ -26,6 +37,7 @@ class MusicPage extends React.Component {
            <MusicScore />
         </div>
       </div>   
+
     )
   }
 }
