@@ -1,9 +1,20 @@
+
+
+
+
+
 .App {
   text-align: center;
 }
 
 .app-title {
-  font-size: 3.5em;
+  font-size: 4em;
+  font-family: 'Permanent Marker', sans-serif;
+}
+
+.logo-pic {
+  width: 3em;
+  height: 3em;
 }
 
 nav {
@@ -16,11 +27,17 @@ nav {
 }
 
 .nav-links {
+  font-family: 'Spartan', sans-serif;
   width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  
 }
+
+
+
+
 
 
