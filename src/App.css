@@ -21,7 +21,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
+  min-height: 8vh;
   background: #3cb4c9;
   color: white;
   margin-bottom: 6em;
@@ -35,6 +35,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  margin-left: -35em;
   
 }
 
