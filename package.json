@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "material-ui": "^0.20.2",
     "material-ui-password-field": "^2.1.0",
+    "mui-flex-layout": "^1.1.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",

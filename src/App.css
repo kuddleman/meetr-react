@@ -52,6 +52,52 @@ nav {
   font-family: 'Spartan', sans-serif;
 }
 
+.music-score-container {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+/* .comments-container {
+  border: 2px solid blue;
+  text-align: left;
+  width: 30%;
+}
+
+.score-comments {
+  
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+    background-image: url("/uploads/media/default/0001/01/a1d4caa225542c577689287a36f4209808b08c19.jpeg");
+    /* font:1.4em/1.6em cursive; */
+    /* color: #095484;
+    
+} */ 
+
+.dialogbox .body {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #dce8ea;
+  border-radius: 3px;
+  border: 5px solid #b5d1d6;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+
+
 .footer-div {
   font-family: 'Nanum Pen Script', sans-serif;
   font-size: 1em;
