@@ -1,30 +1,43 @@
-import React from 'react'
-import Embed from 'flat-embed'
+
+
+
+
+import React from 'react';
+// import CssBaseline from '@material-ui/core/CssBaseline';
+// import Typography from '@material-ui/core/Typography';
+// import Container from '@material-ui/core/Container';
+import ScoreComments from '../components/ScoreComments'
+// import { Column } from 'mui-flex-layout'
+// import { makeStyles } from '@material-ui/core/styles';
+import MusicScore from './MusicScore'
+
 
 class MusicPage extends React.Component {
 
-  componentDidMount(){
-      let container = document.getElementById("embed-container");
-      let embed = new Embed(container, {
-            "width": "1000",
-            "height": "1000",
-            "score": "5e5d4756c36a982b33b89373",
-            "embedParams": {
-                "mode": "edit",
-                "controlsPosition": "top",
-                "branding": false,
-                "appId": "5e5d8d05f9a7d640446f88b4"
-            }})
-
-  }
+  
 render() {
    
 
   
     return (
-      <div>
-        <div id="embed-container"></div>
-      </div>
+  
+
+      <div className="music-score-container">
+        <div className="comments-container">
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+          <ScoreComments />
+        </div>
+        <div>
+           <MusicScore />
+        </div>
+      </div>   
+
     )
   }
 }
