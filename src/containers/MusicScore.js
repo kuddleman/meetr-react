@@ -1,10 +1,28 @@
 import React from 'react'
+import Embed from 'flat-embed'
 
 const MusicScore = () => {
+
+  componentDidMount(){
+    let container = document.getElementById("embed-container");
+    let embed = new Embed(container, {
+          "width": "1000",
+          "height": "1000",
+          "score": "5e5d4756c36a982b33b89373",
+          "embedParams": {
+              "mode": "edit",
+              "controlsPosition": "top",
+              "branding": false,
+              "appId": "5e5d8d05f9a7d640446f88b4"
+          }})
+
+}
   
   return (
     <div>
-      Hello from MusicScore 
+      <div>
+        <div id="embed-container"></div>
+      </div> 
     </div>
   )
 }
