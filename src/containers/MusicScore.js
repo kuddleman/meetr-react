@@ -1,9 +1,9 @@
 import React from 'react'
 import Embed from 'flat-embed'
 
-const MusicScore = () => {
+class MusicScore extends React.Component {
 
-  componentDidMount(){
+  componentDidMount() {
     let container = document.getElementById("embed-container");
     let embed = new Embed(container, {
           "width": "1000",
@@ -17,7 +17,7 @@ const MusicScore = () => {
           }})
 
 }
-  
+  render(){
   return (
     <div>
       <div>
@@ -26,5 +26,5 @@ const MusicScore = () => {
     </div>
   )
 }
-
+}
 export default MusicScore;
